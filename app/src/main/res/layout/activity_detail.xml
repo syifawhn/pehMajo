@@ -16,7 +16,7 @@
             android:id="@+id/iv_foto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_launcher_background"/>
+            android:src="@drawable/ic_home"/>
 
         <TextView
             android:id="@+id/tv_nama"
