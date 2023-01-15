@@ -2,7 +2,10 @@ package com.uas.pehmajo;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -30,17 +33,22 @@ public abstract class MainActivity extends AppCompatActivity {
         rvRestoran.setLayoutManager(new LinearLayoutManager(this));
         AdapterCard kontakCard = new AdapterCard(data);
         rvRestoran.setAdapter(kontakCard);
+    }
 
-        kontakCard.setOnItemClickCallBack(new AdapterGrid.OnItemClickCallBack(){
-            @Override
-            public void onItemClicked(ModelRestoran data){
-                Intent pindah = new Intent(MainActivity.this, DetailActivity.class);
-                pindah.putExtra("xNama", data.getNama());
-                pindah.putExtra("xTentang", data.getTentang());
-                pindah.putExtra("xFoto", data.getFoto());
-                startActivity(pindah);
-            }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu){
+
+        getMenuInflater().inflate(R.menu.menu_pilihan, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item){
+        if (item.getItemId() == R.id.about){
+            startActivity(new Intent(MainActivity.this, AboutActivity.class));
         }
+
+
 
     }
 }

@@ -16,23 +16,78 @@
             android:id="@+id/iv_foto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_home"/>
+            android:src="@drawable/ic_launcher_background"/>
 
         <TextView
             android:id="@+id/tv_nama"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nama"
-            style="@style/TextAppearance.AppCompat.Large"
-            android:padding="6dp"/>
+            android:text="Nama Restoran"
+            android:layout_margin="6dp"
+            android:padding="6dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            style="@style/TextAppearance.AppCompat.Large"/>
 
         <TextView
-            android:layout_width="match_parent"
+            android:id="@+id/tv_tentang"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tentang"
-            style="@style/TextAppearance.AppCompat.Medium"
+            android:text="Tentang Restoran"
+            android:textAlignment="gravity"
+            android:layout_margin="6dp"
             android:padding="6dp"
-            android:justificationMode="inter_word"/>
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:justificationMode="inter_word"
+            style="@style/TextAppearance.AppCompat.Medium"/>
+
+        <TextView
+            android:id="@+id/tv_alamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alamat"
+            android:layout_margin="6dp"
+            android:padding="6dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            style="@style/TextAppearance.AppCompat.Large" />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp">
+
+            <Button
+                android:id="@+id/btn_telphone"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="#95E13D"
+                android:text="Telphone"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_lokasi"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="100sp"
+            android:layout_marginEnd="100sp"
+            android:layout_marginBottom="50dp"
+            android:backgroundTint="#95E13D"
+            android:text="Lokasi"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        </RelativeLayout>
+
     </LinearLayout>
+
 
 </ScrollView>
