@@ -15,7 +15,7 @@ public class AboutKelompok extends AppCompatActivity {
         for (String[] varData : data){
             ModelKelompok modelKelompok = new ModelKelompok();
             modelKelompok.setAnggota(varData[0]);
-            modelKelompok.setPenjelasan(varData[1]);
+            modelKelompok.setDeskripsi(varData[1]);
 
             aboutKelompok.add(modelKelompok);
         }

@@ -1,5 +1,6 @@
 package com.uas.pehmajo;
 
+import android.content.ClipData;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -21,7 +22,6 @@ public abstract class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        getSupportActionBar().setTitle("Daftar Restoran");
         rvRestoran = findViewById(R.id.rv_restoran);
         rvRestoran.setHasFixedSize(true);
 
@@ -31,7 +31,7 @@ public abstract class MainActivity extends AppCompatActivity {
 
     private void tampilDataRestoran() {
         rvRestoran.setLayoutManager(new LinearLayoutManager(this));
-        AdapterCard kontakCard = new AdapterCard(data);
+        AdapterCard kontakCard = new AdapterCard(data, MainActivity.this);
         rvRestoran.setAdapter(kontakCard);
     }
 
@@ -44,11 +44,9 @@ public abstract class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item){
-        if (item.getItemId() == R.id.about){
+        if (item.getItemId() == R.id.tv_tentang){
             startActivity(new Intent(MainActivity.this, AboutActivity.class));
         }
-
-
-
+        return super.onOptionsItemSelected(item);
     }
 }

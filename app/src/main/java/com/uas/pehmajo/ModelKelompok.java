@@ -3,7 +3,7 @@ package com.uas.pehmajo;
 public class ModelKelompok {
     private String Kelompok;
     private String Anggota;
-    private String Penjelasan;
+    private String Deskripsi;
 
     public String getKelompok() {
         return Kelompok;
@@ -21,11 +21,11 @@ public class ModelKelompok {
         Anggota = anggota;
     }
 
-    public String getPenjelasan() {
-        return Penjelasan;
+    public String getDeskripsi() {
+        return Deskripsi;
     }
 
-    public void setPenjelasan(String penjelasan) {
-        Penjelasan = penjelasan;
+    public void setDeskripsi(String deskripsi) {
+        Deskripsi = deskripsi;
     }
 }
