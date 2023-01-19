@@ -1,6 +1,5 @@
 package com.uas.pehmajo;
 
-import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -8,6 +7,8 @@ import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 
@@ -26,12 +27,11 @@ public class AdapterGrid extends RecyclerView.Adapter<AdapterGrid.GridViewHolder
     @Override
     public AdapterGrid.GridViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_grid, parent, false);
-
         return new GridViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull GridViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull AdapterGrid.GridViewHolder holder, int position) {
         ModelRestoran restoran = dataRestoran.get(position);
 
         Glide.with(holder.itemView.getContext()).load(restoran.getFoto()).into(holder.ivItemGrid);
@@ -45,11 +45,6 @@ public class AdapterGrid extends RecyclerView.Adapter<AdapterGrid.GridViewHolder
         public GridViewHolder(@NonNull View itemView) {
             super(itemView);
             ivItemGrid = itemView.findViewById(R.id.iv_item_grid);
-        }
-    }
-
-    private static class Glide {
-        public static Object with(Context context) {
         }
     }
 }
