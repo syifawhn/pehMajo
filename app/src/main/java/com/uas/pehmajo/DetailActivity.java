@@ -1,6 +1,5 @@
 package com.uas.pehmajo;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -18,14 +17,14 @@ public class DetailActivity extends AppCompatActivity {
     private TextView tvNama, tvTentang, tvAlamat;
     private String yNama, yTentang, yFoto, yKoordinat, yAlamat, yTelphone;
     private Button btnTelphone, btnLokasi;
-    private android.view.View.OnClickListener View;
+    //private android.view.View.OnClickListener View;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
-        getSupportActionBar().setTitle("Peh Majo'");
+        getSupportActionBar().setTitle("Peh Majo");
         btnLokasi = findViewById(R.id.btn_lokasi);
         btnTelphone = findViewById(R.id.btn_telphone);
         tvAlamat = findViewById(R.id.tv_alamat);
@@ -47,6 +46,7 @@ public class DetailActivity extends AppCompatActivity {
                 .with(DetailActivity.this)
                 .load(yFoto)
                 .into(ivFoto);
+
         btnLokasi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(android.view.View view) {
@@ -60,10 +60,10 @@ public class DetailActivity extends AppCompatActivity {
 
         btnTelphone.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(android.view.View view) {
-                String Telphone = tvNama.getText().toString();
-                Intent openTelphone = new Intent(Intent.ACTION_DIAL);
-                startActivity(openTelphone);
+            public void onClick(View view) {
+                String telphone = tvNama.getText().toString();
+                Intent bukaTelphone = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", telphone, "null"));
+                startActivity(bukaTelphone);
             }
         });
     }
