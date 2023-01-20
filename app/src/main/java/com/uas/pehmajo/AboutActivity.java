@@ -26,7 +26,7 @@ public class AboutActivity extends AppCompatActivity {
 
     private void tampilDataCard() {
         rv_anggota.setLayoutManager(new LinearLayoutManager(this));
-        AdapterKelompok AC = new AdapterKelompok(data, AboutActivity.this);
-        rv_anggota.setAdapter(AC);
+        AdapterKelompok AK = new AdapterKelompok(data, AboutActivity.this);
+        rv_anggota.setAdapter(AK);
     }
 }

@@ -35,7 +35,7 @@ public class DataRestoran {
             {
                     "River Side restoran",
                     "Rumah makan yang wajib dikunjungi saat berada di Palembang berikutnya adalah river side restautant, seperti namanya rumah makan ini terletak di pinggir sungai musi yang memang menjadi salah satu icon kota Palembang. Menu di rumah makan ini juga sangat nikmat untuk kita nikmati, apalagi akan ditemani pemandangan yang tak biasa yaitu sungai musi. Tentunya akan menjadi kesan tersendiri jika kita makan di tempat ini, hal ini dikarenakan kita akan mendapat pemandangan yang sangat bagus serta perahu dan segala aktivitas di sungai musi kita akan bisa melihatnya dengan jelas." ,
-                    "http://giwang.sumselprov.go.id/api/uploads/resto/resto_162381487116110.JPG",
+                    "https://4.bp.blogspot.com/-O_j3rz7MDYA/VbhdWHUhtTI/AAAAAAAAB3w/gaaMG2NgQ4g/s1600/Icon-Logo-Kumpulan-Gambar-Tempat-Kuliner-Khas-Palembang-Restoran-River-side-Kota-Palembang-Sumatera-Selatan.jpg",
                     "Alamat : Komplek Benteng Kuto Besar, Jl. Rumah Bari, 19 Ilir, Kec. Bukit Kecil, Kota Palembang, Sumatera Selatan 30113",
                     "0711-368222",
                     "-1.3233468882216166, 104.81511945396612"
@@ -53,7 +53,7 @@ public class DataRestoran {
             {
                     "Pempek Beringin Rajawali",
                     "Rumah makan berikutnya yang tak kalah menarik untuk kita kunjungi adalah pempek beringin rajawali, seperti namanya disini merupakan salah satu rumah makan dengan cita rasa pempek yang sangat nikmat, hal ini dibuktikan dengan banyaknya pengunjung yang singgah di rumah makan tersebut. Rumah makan ini terletak di Jl. Rajawali No.14 kota Palembang." ,
-                    "https://1.bp.blogspot.com/-eKkBCb4H8mM/WeXOEZyl4AI/AAAAAAABJ4Y/fy0CA_op-1ILnDXYrJJTo_HaBelJH_HVACEwYBhgL/s1600/IMG_8152%2B%2528Copy%2529.jpg",
+                    "https://4.bp.blogspot.com/-fN_f_WlevR4/WeXOEGerFhI/AAAAAAABJ4Y/OT00L4f6fdgMg2daEAA1cGXn6ehZ5dYCwCEwYBhgL/s1600/IMG_8150%2B%2528Copy%2529.jpg",
                     "Alamat : Jl. Rajawali No.14, 9 Ilir, Kec. Ilir Tim. II, Kota Palembang, Sumatera Selatan 30113",
                     "0711-350690",
                     "-2.9714676231940347, 104.76458004146717"
@@ -89,7 +89,7 @@ public class DataRestoran {
             {
                     "Bebek Tepi Sawah",
                     "Berbeda dengan tempat makan sebelumnya bebek tepi sawah adalah restoran yang membuat bebek sebagai menu utama mereka. Disini kita akan dimanjakan dengan rasa rempah-rempah serta sambal yang dipadu padankan dengan rasa daging bebek yang sangat empuk, hal ini membuat tempat makan yang satu ini tidak pernah sepi pengunjung. Rumah makan ini akan menjadi tujuan yang sangat tepat bagi kita pecinta daging bebek, namun bagi kita yang tidak terlalu suka disini juga disediakan daging ayam. Harganya pun cukup terjangkau kisaran 70 sampai 100 ribu saja kita sudah bisa menikmati satu porsi ayam ataupun bebek khas restoran bebek tepi sawah tersebut." ,
-                    "http://sliceofmeat.blogspot.com/2014/11/bebek-tepi-sawah-palembang.html",
+                    "https://lh5.googleusercontent.com/p/AF1QipMmm5uvOHkfmydX8NpoF8U2PpjD0-6bDOmWOL-O=w480-h300-k-n",
                     "Alamat : Palembang Icon Mall, Jl. POM IX, Lorok Pakjo, Kec. Ilir Bar. I, Kota Palembang, Sumatera Selatan 30137",
                     "0711-5649384",
                     "-2.9784082109876246, 104.74596973961572"

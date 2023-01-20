@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DetailActivity">
+    tools:context=".DetailActivity"
+    android:background="#ffffff">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -51,6 +52,7 @@
             android:padding="6dp"
             android:textColor="@color/black"
             android:textSize="15dp"
+            android:justificationMode="inter_word"
             style="@style/TextAppearance.AppCompat.Large" />
 
 
@@ -61,29 +63,31 @@
 
             <Button
                 android:id="@+id/btn_telphone"
-                android:layout_width="100dp"
+                android:layout_width="120dp"
                 android:layout_height="match_parent"
-                android:layout_marginStart="100dp"
+                android:layout_marginStart="80dp"
+                android:layout_marginLeft="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="20dp"
-                android:layout_marginBottom="20dp"
-                android:backgroundTint="#95E13D"
-                android:text="Telphone"
+                android:layout_marginBottom="50dp"
+                android:backgroundTint="#ED8D6F"
+                android:text="Telpon"
                 android:textSize="10sp"
                 android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/btn_lokasi"
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="100dp"
-            android:layout_marginTop="100sp"
-            android:layout_marginEnd="100sp"
-            android:layout_marginBottom="50dp"
-            android:backgroundTint="#95E13D"
-            android:text="Lokasi"
-            android:textSize="10sp"
-            android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_lokasi"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="80dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginBottom="50dp"
+                android:backgroundTint="#ED8D6F"
+                android:text="Lokasi"
+                android:textSize="10sp"
+                android:textStyle="bold" />
 
         </RelativeLayout>
 
