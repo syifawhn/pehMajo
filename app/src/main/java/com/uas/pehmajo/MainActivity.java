@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         rvRestoran.setLayoutManager(new LinearLayoutManager(this));
         AdapterCard AC = new AdapterCard(data, MainActivity.this);
         rvRestoran.setAdapter(AC);
+
     }
 
     @Override

@@ -34,14 +34,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Tentang Restoran"
-            android:layout_toRightOf="@+id/iv_foto"
             android:layout_below="@+id/tv_nama"
             android:layout_marginLeft="16dp"
             android:textSize="15dp"
             android:textStyle="bold"
             android:textColor="@color/black"
-            android:ellipsize="end"
-            android:maxLines="3"/>
+            android:layout_toRightOf="@+id/iv_foto"
+            android:maxLines="3"
+            android:ellipsize="end"/>
     </RelativeLayout>
 
 </androidx.cardview.widget.CardView>
