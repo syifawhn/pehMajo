@@ -1,5 +1,6 @@
 package com.uas.pehmajo;
 
+import android.content.ClipData;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -32,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
         rvRestoran.setLayoutManager(new LinearLayoutManager(this));
         AdapterCard AC = new AdapterCard(data, MainActivity.this);
         rvRestoran.setAdapter(AC);
-
     }
 
     @Override

@@ -13,6 +13,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 
+import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
+
 import java.util.ArrayList;
 
 public class AdapterCard extends RecyclerView.Adapter<AdapterCard.CardViewHolder> {
@@ -20,6 +22,11 @@ public class AdapterCard extends RecyclerView.Adapter<AdapterCard.CardViewHolder
     private Context ctx;
 
     public AdapterCard(ArrayList<ModelRestoran> dataRestoran, Context ctx) {
+        this.dataRestoran = dataRestoran;
+        this.ctx = ctx;
+    }
+
+    public AdapterCard(ArrayList<ModelKelompok> data, AboutActivity ctx) {
         this.dataRestoran = dataRestoran;
         this.ctx = ctx;
     }

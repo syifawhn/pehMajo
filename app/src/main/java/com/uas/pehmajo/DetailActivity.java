@@ -54,7 +54,6 @@ public class DetailActivity extends AppCompatActivity {
                 Uri UriLokasi =Uri.parse("geo:0,0?q=" + yKoordinat);
                 Intent openLokasi = new Intent(Intent.ACTION_VIEW, UriLokasi);
                 startActivity(openLokasi);
-
             }
         });
 
@@ -72,6 +71,4 @@ public class DetailActivity extends AppCompatActivity {
         tvNama = findViewById(R.id.tv_nama);
         tvTentang = findViewById(R.id.tv_tentang);
     }
-
-
 }

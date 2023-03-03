@@ -4,8 +4,7 @@ import java.util.ArrayList;
 
 public class DataRestoran {
 
-    public static String [][] data = new String[][]{
-            {
+    public static String [][] data = new String[][]{{
                     "Pondok Kelapa",
                     "Tempat makan yang pertama adalah pondok kelapo, tempat makan ini terletak di Jl. Demang Lebar Daun No. 184 Palembang. Di rumah makan ini terdapat beberapa menu atau kuliner khas Palembang yang salah satunya adalah pempek, selain itu pondok kelapo Palembang juga memberikan tempat yang sangat nyaman untuk kita bisa menikmati kuliner di Palembang ini. Di pondok kelapo ini memiliki tempat yang sederhana namun tetap memiliki kesan elegan, sehingga hal ini menjadikan pondok kelapo sebagai salah satu tempat makan yang sangat direkomendasikan saat kita sedang berburu kuliner di kota Palembang." ,
                     "https://dananwahyu.files.wordpress.com/2015/01/dsc_1182.jpg",
@@ -94,7 +93,6 @@ public class DataRestoran {
                     "0711-5649384",
                     "-2.9784082109876246, 104.74596973961572"
             },
-
     };
 
     public static ArrayList<ModelRestoran> ambilDataRestoran () {
